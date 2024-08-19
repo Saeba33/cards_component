@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer components {
+  .perspective{
+    transform-origin: left;
+    transform: rotateY(-90deg);
+    perspective: 2000px;
+  }  
+  .rotate-hover {
+    transform: rotateY(0deg);
+  }
+}
