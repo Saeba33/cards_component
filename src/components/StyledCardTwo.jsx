@@ -5,7 +5,6 @@ export default function StyledCardTwo() {
   return (
     <div className="min-h-screen w-full bg-red-800 flex items-center justify-center relative">
       <div className="relative w-[500px] h-[400px] group">
-        {/* Image */}
         <div className="w-full h-full overflow-hidden relative">
           <Image
             src="/1.jpg"
@@ -15,7 +14,6 @@ export default function StyledCardTwo() {
             className="w-full h-full object-cover duration-500 group-hover:opacity-50 group-hover:translate-x-9"
           />
         </div>
-        {/* Détails */}
         <div className="absolute top-0 left-0 w-[70%] h-full bg-[#ffc107] perspective  duration-500 group-hover:rotate-hover group-hover:opacity-100 opacity-0">
           <div className="absolute top-1/4 p-5 text-center bg-white">
             <h3 className="text-red-500 text-3xl font-semibold">Title</h3>
