@@ -1,3 +1,4 @@
+import StyledCardFour from "@/components/StyledCardFour";
 import StyledCardOne from "@/components/StyledCardOne";
 import StyledCardThree from "@/components/StyledCardThree";
 import StyledCardTwo from "@/components/StyledCardTwo";
@@ -8,6 +9,7 @@ export default function Home() {
       <StyledCardOne />
       <StyledCardTwo />
       <StyledCardThree />
+      <StyledCardFour />
     </main>
   );
 }

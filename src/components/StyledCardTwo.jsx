@@ -1,5 +1,5 @@
 import Image from "next/image";
-import links from "@/data/StyledCardTwoData";
+import dataCardTwo from "@/data/StyledCardTwoData";
 
 export default function StyledCardTwo() {
   return (
@@ -23,15 +23,15 @@ export default function StyledCardTwo() {
               industry.
             </p>
             <ul className="flex justify-center space-x-2 mt-2">
-              {links.map((link, index) => (
+              {dataCardTwo.map((card, index) => (
                 <li key={index}>
                   <a
-                    href={link.href}
+                    href={card.href}
                     className="flex w-[30px] h-[30px] bg-gray-800 text-white items-center justify-center transition-all duration-500 hover:bg-red-500"
-                    aria-label={link.ariaLabel}
+                    aria-label={card.ariaLabel}
                   >
                     <i className="text-center" aria-hidden="true">
-                      {link.text}
+                      {card.text}
                     </i>
                   </a>
                 </li>

@@ -1,4 +1,4 @@
-const links = [
+const dataCardTwo = [
   { href: "#", text: "F", ariaLabel: "Facebook" },
   { href: "#", text: "T", ariaLabel: "Twitter" },
   { href: "#", text: "G", ariaLabel: "Google Plus" },
@@ -6,4 +6,4 @@ const links = [
   { href: "#", text: "I", ariaLabel: "Instagram" },
 ];
 
-export default links;
+export default dataCardTwo;
